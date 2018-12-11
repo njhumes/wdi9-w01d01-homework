@@ -1,0 +1,59 @@
+
+1.  Nicks-MacBook-Pro:homework_part_1 NickHumes$ mkdir death_star
+    Nicks-MacBook-Pro:homework_part_1 NickHumes$ cd death_star/
+    Nicks-MacBook-Pro:death_star NickHumes$ touch darth_vader.txt princess_leia.txt storm_trooper.txt
+
+2.  Nicks-MacBook-Pro:homework_part_1 NickHumes$ mkdir galaxy_far_far_away
+    Nicks-MacBook-Pro:homework_part_1 NickHumes$ cd galaxy_far_far_away/
+    Nicks-MacBook-Pro:galaxy_far_far_away NickHumes$ mkdir tatooine
+    Nicks-MacBook-Pro:galaxy_far_far_away NickHumes$ cd tatooine/
+    Nicks-MacBook-Pro:tatooine NickHumes$ touch luke.txt ben_kenobi.txt
+
+3.  Nicks-MacBook-Pro:tatooine NickHumes$ mkdir millenium_falcon
+    Nicks-MacBook-Pro:tatooine NickHumes$ cd millenium_falcon/
+    Nicks-MacBook-Pro:millenium_falcon NickHumes$ touch han_solo.txt chewbaca.txt
+
+4.  Nicks-MacBook-Pro:tatooine NickHumes$ mv ben_kenobi.txt obi_wan.txt
+    Nicks-MacBook-Pro:tatooine NickHumes$ ls
+    luke.txt		millenium_falcon	obi_wan.txt
+
+5.  Nicks-MacBook-Pro:death_star NickHumes$ cp storm_trooper.txt ../galaxy_far_far_away/tatooine/
+
+6.  Nicks-MacBook-Pro:tatooine NickHumes$ mv luke.txt obi_wan.txt millenium_falcon/
+
+7.  Nicks-MacBook-Pro:tatooine NickHumes$ mv millenium_falcon/ ../
+
+8.  Nicks-MacBook-Pro:galaxy_far_far_away NickHumes$ mv millenium_falcon/ ../death_star/
+
+9.  Nicks-MacBook-Pro:death_star NickHumes$ mv princess_leia.txt millenium_falcon/
+
+10. Nicks-MacBook-Pro:millenium_falcon NickHumes$ rm obi_wan.txt 
+
+11. Nicks-MacBook-Pro:galaxy_far_far_away NickHumes$ mkdir yavin_4
+
+12. Nicks-MacBook-Pro:galaxy_far_far_away NickHumes$ mv ../death_star/millenium_falcon/ yavin_4/
+
+13. Nicks-MacBook-Pro:yavin_4 NickHumes$ mkdir x_wing
+
+14. Nicks-MacBook-Pro:homework_part_1 NickHumes$ mv galaxy_far_far_away/yavin_4/millenium_falcon/princess_leia.txt galaxy_far_far_away/yavin_4/
+    Nicks-MacBook-Pro:homework_part_1 NickHumes$ mv galaxy_far_far_away/yavin_4/millenium_falcon/luke.txt galaxy_far_far_away/yavin_4/x_wing/
+
+15. Nicks-MacBook-Pro:yavin_4 NickHumes$ mv millenium_falcon/ x_wing/ ../
+
+16. Nicks-MacBook-Pro:death_star NickHumes$ mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+
+17. Nicks-MacBook-Pro:death_star NickHumes$ mv darth_vader.txt tie_fighter_1/
+
+18. Nicks-MacBook-Pro:death_star NickHumes$ cp storm_trooper.txt tie_fighter_2/
+    Nicks-MacBook-Pro:death_star NickHumes$ cp storm_trooper.txt tie_fighter_3/
+
+19. Nicks-MacBook-Pro:death_star NickHumes$ mv tie_fighter_1 tie_fighter_2 tie_fighter_3 ../galaxy_far_far_away/
+
+20. Nicks-MacBook-Pro:galaxy_far_far_away NickHumes$ rm -r tie_fighter_2 tie_fighter_3
+
+21. Nicks-MacBook-Pro:x_wing NickHumes$ touch the_force.txt
+
+22. Nicks-MacBook-Pro:homework_part_1 NickHumes$ rm -r death_star/
+
+23. Nicks-MacBook-Pro:galaxy_far_far_away NickHumes$ mv x_wing/ millenium_falcon/ yavin_4≥l['/
+ 
